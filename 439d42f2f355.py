@@ -10,7 +10,9 @@ sample_text="A huge trash-collecting system designed to clean up plastic floatin
 # In[2]:
 
 
+import unidecode
 sample_text=sample_text.lower()
+sample_text=unidecode.unidecode(sample_text)
 
 
 # In[3]:
